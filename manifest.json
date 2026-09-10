@@ -1,0 +1,12 @@
+{
+  "type": "plugin",
+  "id": "com.edgever.drawio",
+  "name": "Draw.io Diagram Editor",
+  "version": "1.0.0",
+  "apiVersion": "2",
+  "settingsUi": "host",
+  "description": "Embed and edit draw.io flowcharts directly in EdgeEver notes. Create, edit, and insert diagrams into your notes via an integrated draw.io editor.",
+  "entry": "./main.js",
+  "platforms": ["web", "desktop"],
+  "permissions": ["notes:read", "notes:write", "editor:read", "editor:write", "ui:commands", "ui:panels", "ui:embeds", "resources:read", "resources:write", "network"]
+}

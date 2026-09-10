@@ -1,0 +1,12 @@
+/* EdgeEver Draw.io Plugin - Theme Styles */
+.edgeever-drawio-panel { display: flex; flex-direction: column; width: 100%; height: 100%; }
+.edgeever-drawio-toolbar button { padding: 6px 12px; border: 1px solid #e2e8f0; border-radius: 6px; background: #fff; cursor: pointer; font-size: 13px; }
+.edgeever-drawio-toolbar button:hover { background: #f1f5f9; }
+.edgeever-drawio-editor { flex: 1; position: relative; }
+.edgeever-drawio-status { font-size: 12px; color: #64748b; }
+.edgeever-drawing-embed { border: 1px dashed var(--color-border, #e2e8f0); border-radius: 6px; cursor: pointer; }
+.edgeever-drawing-embed:hover { border-color: var(--color-accent, #16a06e); }
+.edgeever-drawing-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 150px; border: 1px dashed var(--color-border, #e2e8f0); border-radius: 8px; padding: 20px; text-align: center; cursor: pointer; }
+.edgeever-drawing-placeholder .icon { font-size: 40px; margin-bottom: 10px; }
+.edgeever-drawing-placeholder .label { font-size: 14px; color: var(--color-muted, #64748b); }
+.edgeever-drawing-placeholder .hint { font-size: 12px; color: var(--color-muted, #94a3b8); }
